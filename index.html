@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enigma das Portas Mágicas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <div class="container">
+        <h1>Enigma das Portas Mágicas 🔮</h1>
+        <p class="subtitle">Descubra qual porta leva ao tesouro!</p>
+        
+        <div class="input-group">
+            <label for="portas">Insira os números das 3 portas (separados por vírgula):</label>
+            <input type="text" id="portas" placeholder="Ex: 15, 6, 90">
+        </div>
+        
+        <div class="button-group">
+            <a class="btn btn-10" id="resolver"><span>Resolver Enigma</span></a>
+            <a class="btn btn-10" id="limpar"><span>Limpar</span></a>
+        </div>
+        
+        <div class="result-container">
+            <h2>Resultado:</h2>
+            <div id="resultado"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
